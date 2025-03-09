@@ -1,4 +1,4 @@
-This is the repository corresponding to Daiichi Sankyo's challenge for the "Data Scientist" position.
+This is the repository corresponding t
 
 In this repository you can find 2 folders:
 
