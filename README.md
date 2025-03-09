@@ -1,4 +1,4 @@
-This is the repository corresponding t
+This is the repository corresponding to the task "Predicting customer subscription"
 
 In this repository you can find 2 folders:
 
