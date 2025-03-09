@@ -1,6 +1,6 @@
 This is the repository corresponding to the task "Predicting customer subscription"
 
-In this repository you can find 2 folders:
+In this repository you can find 3 folders:
 
 1) Jupyter_notebook: here I solved the proposed task in a notebook. The final "predictions.csv" file with the predictions is stored in the folder "data".
 
