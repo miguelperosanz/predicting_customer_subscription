@@ -1,0 +1,52 @@
+Example of api call:
+
+http://127.0.0.1:5000/prediction?age=33&job=1&marital=1&education=1&default=1&housing=1&loan=1&contact=1&month=1&dayweek=1&duration=1&campaign=1&previous=1&poutcome=1
+
+
+Instructions regarding the encoding parameters for the URL:
+
+Parameter: age
+simply type the age without encoding
+##############################
+Parameter: job
+{'admin.': 0, 'blue-collar': 1, 'entrepreneur': 2, 'housemaid': 3, 'management': 4, 'retired': 5, 'self-employed': 6, 'services': 7, 'student': 8, 'technician': 9, 'unemployed': 10, 'unknown': 11}
+##############################
+Parameter: marital
+{'divorced': 0, 'married': 1, 'single': 2, 'unknown': 3}
+##############################
+Parameter: education
+{'basic.4y': 0, 'basic.6y': 1, 'basic.9y': 2, 'high.school': 3, 'illiterate': 4, 'professional.course': 5, 'university.degree': 6, 'unknown': 7}
+##############################
+Parameter: default
+{'no': 0, 'unknown': 1, 'yes': 2}
+##############################
+Parameter: housing
+{'no': 0, 'unknown': 1, 'yes': 2}
+##############################
+Parameter: loan
+{'no': 0, 'unknown': 1, 'yes': 2}
+##############################
+Parameter: contact
+{'cellular': 0, 'telephone': 1}
+##############################
+Parameter: month
+{'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6, 'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
+##############################
+Parameter: dayweek
+{'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5}
+##############################
+Parameter: duration
+type the duration in minutes
+##############################
+Parameter: campaign
+type the campaign number without encoding
+##############################
+Parameter: previous
+type the parameter (already encoded: 0 or 1)
+##############################
+Parameter: poutcome
+{'failure': 0, 'nonexistent': 1, 'success': 2}
+##############################
+
+
+
