@@ -1,4 +1,4 @@
-### "Predicting customer subscription".
+# "Predicting customer subscription".
 
 In this repository you can find 3 relevant folders:
 
