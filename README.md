@@ -4,7 +4,7 @@ In this repository you can find 3 relevant folders:
 
 1) Jupyter_notebook: here I solved the proposed task in a notebook. The final "predictions.csv" file with the predictions is stored in the folder "data".
 
-2) API_Flask: developed as an extra task. I took the resulting model from point 1 and created an API in Flask in order to simulate a "virtual production" environment. The idea is using the trained model for performing predictions programatically by means of GET calls. Type "python app.py" to execute.
+2) API_Flask: developed as an extra task. I took the resulting model from point 1 and created an API in Flask in order to simulate a "virtual production" environment. The idea is using the trained model for performing predictions programatically by means of GET calls. Type "python api.py" to execute.
 
 ![Image1](pictures/api_capture.png)
 
