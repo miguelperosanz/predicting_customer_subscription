@@ -8,7 +8,7 @@ In this repository you can find 3 relevant folders:
 
 ![Image1](pictures/api_capture.png)
 
-3) APP_Streamlit: developed as an extra task. I created a dashboard so that the bank workers could easily get a prediction about the posibilities of subscription of a customer by typing the parameters in drop down menus and input boxes. I have used the library "Streamlit" which comes in hand for creating quick using interfaces with python. The predictions are obtained by means of backend calls to the API developed in the second point. Type "streamlit app.py" to execute (the API needs to be working to get the predictions).
+3) APP_Streamlit: developed as an extra task. I created a dashboard so that the bank workers could easily get a prediction about the posibilities of subscription of a customer by typing the parameters in drop down menus and input boxes. I have used the library "Streamlit" which comes in hand for creating quick using interfaces with python. The predictions are obtained by means of backend calls to the API developed in the second point. Type "streamlit run app.py" to execute (the API needs to be working to get the predictions).
 
 ![Image2](pictures/streamlit_dashboard.png)
 
