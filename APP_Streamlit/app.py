@@ -6,7 +6,6 @@ import json
 st.title("Predicting Customer Subscription - User Interface")
 
 def get_numeric_input(label, options, mapping):
-    """Creates a Streamlit selectbox and converts the selected option to a numeric value."""
     selected = st.selectbox(label, options)
     return mapping.get(selected, "Invalid status")
 
